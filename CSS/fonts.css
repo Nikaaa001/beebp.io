@@ -1,0 +1,9 @@
+@font-face {
+    font-family: worksans;
+    src: url(../Fonts/WorkSans-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: worksans1;
+    src: url(../Fonts/WorkSans-Italic-VariableFont_wght.ttf);
+}

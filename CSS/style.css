@@ -1,0 +1,763 @@
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-top {
+    position: absolute;
+    width: 100%;
+    top: -0.5px;
+    z-index: -99;
+}
+
+/* 1410px */
+.main-cont {
+    max-width: 100%;
+    height: auto;
+    width: 1410px;
+    height: 1000px;
+    margin: 0 auto;
+}
+
+/* ------------------------------- Header ------------------------------- */
+.header {
+    margin-top: 30px;
+    height: 40px;
+}
+
+.header__ul-cont {
+    width: 480px;
+    float: right;
+    margin-top: 11px;
+}
+
+.header__li-links {
+    display: flex;
+    margin-right: 40px;
+    text-decoration: none;
+}
+
+.header__ul {
+    width: 500px;
+    display: flex;
+}
+
+.header__ul-li {
+    font-family: worksans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+
+    color: #FFFFFF;
+}
+
+.header__ul-li:hover {
+    font-size: 15px;
+    color: #e9e9e9;
+}
+
+.header__btn {
+    width: 135px;
+    height: 36px;
+    border-radius: 10px;
+    background-color: #14B45C;
+    margin-top: 1.5px;
+    float: right;
+
+    font-family: worksans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 15px;
+
+    color: #FFFFFF;
+}
+
+.header__btn:hover {
+    background-color: #17d86e;
+    cursor: pointer;
+}
+
+/* ------------------------------- Page1 ------------------------------- */
+
+.page1iphone {
+    padding: 30px 15px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.warehouse-cont {
+    width: 494px;
+    height: 278px;
+    float: right;
+    margin-right: 285px;
+    margin-top: 300px;
+}
+
+.warehouse-title {
+    color: #FFFFFF;
+
+    font-family: worksans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.warehouse-text {
+    margin-top: 30px;
+
+    font-family: worksans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+
+
+    color: #A1A4AC;
+}
+
+.warehouse-btn {
+    width: 206px;
+    height: 52px;
+    border-radius: 16px;
+    margin-top: 40px;
+
+    background: #14B45C;
+
+    font-family: worksans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+}
+
+.warehouse-btn:hover {
+    background-color: #008a3e;
+    cursor: pointer;
+}
+
+.howtowork {
+    float: right;
+    display: flex;
+    margin: 50px 55px auto auto;
+}
+
+.howtowork:hover {
+    cursor: pointer;
+}
+
+.howtowork:hover .playbtn {
+    transition: .5s;
+    transform: translateY(-5px);
+}
+
+
+.playtext {
+    color: #FFFFFF;
+    margin: auto 0 auto 10px;
+
+    font-family: worksans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+/* ------------------------------- Page2 ------------------------------- */
+
+.analytics-cont {
+    margin-top: 120px;
+    width: 1409px;
+    height: 540px;
+}
+
+.analitycs-title {
+    color: #1C1F28;
+    text-align: center;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 40px;
+}
+
+.conts-cont {
+    display: flex;
+    justify-content: space-between;
+}
+
+.secured-cont {
+    text-align: center;
+    margin-top: 80px;
+    width: 420px;
+    height: 420px;
+    float: left;
+}
+
+.shield-logo {
+    margin-top: 79px;
+}
+
+.shield-title {
+    color: #1C1F28;
+    margin-top: 43px;
+
+    font-family: worksans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.secured-text {
+    margin-top: 24px;
+
+    font-family: worksans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #A1A4AC;
+}
+
+.detailed-cont {
+    margin-top: 80px;
+    width: 420px;
+    height: 420px;
+    text-align: center;
+}
+
+.busines-cont {
+    margin-top: 80px;
+    width: 420px;
+    height: 420px;
+    margin-right: 0;
+    text-align: center;
+}
+
+/* ------------------------------- Page3 ------------------------------- */
+
+.page3 {
+    margin-top: 165px;
+    width: 1400px;
+    height: 1225px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.detailes1 {
+    width: 420px;
+    height: 584px;
+    margin-top: 221px;
+}
+
+.detailes2 {
+    width: 420px;
+    height: 584px;
+    margin-top: 221px;
+}
+
+.orderinformation-cont {
+    width: 420px;
+    height: 252px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 10px 50px rgba(7, 42, 68, 0.04);
+    border-radius: 15px;
+}
+
+.basket-logo {
+    margin: 40px 0 0 40px;
+}
+
+.basket-title {
+    margin-left: 40px;
+
+    font-family: worksans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #1C1F28;
+}
+
+.basket-text {
+    margin-top: 41px;
+    margin-left: 40px;
+
+    font-family: worksans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+
+    color: #7A7C82;
+}
+
+.orderinformation-cont1 {
+    width: 420px;
+    height: 252px;
+    margin-top: 80px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 10px 50px rgba(7, 42, 68, 0.04);
+    border-radius: 15px;
+}
+
+.orderinformation-cont2 {
+    width: 420px;
+    height: 252px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 10px 50px rgba(7, 42, 68, 0.04);
+    border-radius: 15px;
+}
+
+.orderinformation-cont3 {
+    width: 420px;
+    height: 252px;
+    margin-top: 80px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 10px 50px rgba(7, 42, 68, 0.04);
+    border-radius: 15px;
+}
+
+.iphonex {
+    width: 366.59px;
+    height: 754.65px;
+    margin-top: 135px;
+}
+
+.page3-btn {
+    position: absolute;
+    margin-top: 920px;
+    margin-left: 596px;
+    width: 206px;
+    height: 52px;
+    background: #14B45C;
+    box-shadow: 0px 5px 30px rgba(50, 54, 67, 0.2);
+    border-radius: 16px;
+    color: #FFFFFF;
+
+    font-family: worksans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.page3-btn:hover {
+    background-color: #08d665;
+}
+
+.mask {
+    position: absolute;
+    z-index: -98;
+    margin-top: 1920px;
+    max-width: 1920px;
+    width: 100vw;
+}
+
+/* ------------------------------- Page4 ------------------------------- */
+
+.page4 {
+    width: 1410px;
+    height: 606px;
+    margin-top: 270px;
+    text-align: center;
+}
+
+.page4-title {
+    font-family: worksans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 40px;
+
+    color: #1C1F28;
+}
+
+.page4-text {
+    margin-top: 20px;
+    color: #7A7C82;
+
+    font-family: worksans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.cards-cont {
+    width: 1410px;
+    height: 331px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.startups {
+    width: 420px;
+    height: 330px;
+}
+
+.retailers {
+    width: 420px;
+    height: 330px;
+}
+
+.individuals {
+    width: 420px;
+    height: 330px;
+}
+
+.cards-title {
+    margin-top: 30px;
+    color: #1C1F28;
+
+    font-family: worksans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.cards-text {
+    color: #A1A4AC;
+    width: 300px;
+    margin: 10px auto 0 auto;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.page4-btn {
+    width: 206px;
+    height: 52px;
+    border-radius: 16px;
+    margin-top: 60px;
+    color: #1C1F28;
+    background: #FFFFFF;
+    border: 1px solid #1C1F28;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.page4-btn:hover {
+    background-color: #14B45C;
+    cursor: pointer;
+}
+
+/* ------------------------------------- Page5 --------------------------- */
+
+.page5 {
+    width: 900px;
+    height: 276px;
+    margin: 280px auto 0 auto;
+}
+
+.page5-title {
+    font-family: worksans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 40px;
+    text-align: center;
+
+    color: #1C1F28;
+}
+
+.page5-text {
+    margin-top: 55px;
+    color: #A1A4AC;
+    size: 24px;
+
+    font-family: worksans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.profiles-cont {
+    width: 304px;
+    height: 100px;
+    margin: 23px auto 0 auto;
+    border-radius: 5px;
+    display: flex;
+    text-align: center;
+    z-index: 1;
+}
+
+.stars1 {
+    width: 180px;
+}
+.profile-name {
+    margin: 20px auto 0 31px;
+
+    font-family: worksans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+}
+
+.center .stars{
+  height: 20px;
+  width: 20px;
+  text-align: center;
+}
+
+.stars input{
+  display: none;
+}
+
+.stars label{
+  float: right;
+  font-size: 20px;
+  color: #A1A4AC;
+  margin: 0 5px;
+  text-shadow: 1px 1px #bbb;
+}
+
+.stars label:before{
+  content: '★';
+}
+
+.stars input:checked ~ label{
+  color: #FEB062;
+  text-shadow: 1px 1px #c60;
+}
+
+.stars:not(:checked) > label:hover,
+.stars:not(:checked) > label:hover ~ label{
+  color: #FEB062;
+}
+
+.stars input:checked > label:hover,
+.stars input:checked > label:hover ~ label{
+  color: #FEB062;
+  text-shadow: 1px 1px #FEB062;
+}
+
+.stars .result:before{
+  font-size: 10px;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  display: none;
+}
+
+.stars input:checked ~ .result:before{
+  display: block;
+}
+
+/* ------------------------------ Downloads Cont ------------------------------ */
+
+.downloads-cont {
+    width: 1140px;
+    height: 340px;
+    margin: 280px auto 0 auto;
+    border-radius: 15px;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 98%, rgba(20,180,92,1) 99%);
+    border: 0.5px solid #FFFFFF;
+}
+
+.download-buttons {
+    width: 520px;
+    height: 156px;
+    margin: 92px auto;
+    text-align: center;
+}
+
+.downloads-title {
+    color: #1C1F28;
+
+    font-family: worksans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.downloads-text {
+    margin-top: 20px;
+    color: #A1A4AC;
+
+    font-family: worksans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+}
+
+.playstore {
+    margin-top: 30px;
+    margin-right: 15px;
+}
+
+.appstore {
+    margin-top: 30px;
+}
+
+/* ------------------------------------ lastpage ------------------------------------ */
+
+.last-cont {
+    text-align: center;
+}
+
+.last-bg {
+    position: absolute;
+    z-index: -88;
+    top: 4857px;
+    max-width: 1920px;
+    width: 100vw;
+}
+
+.lastpage-logo {
+    margin-top: 100px;
+    width: 147px;
+    height: 40px;
+}
+
+.last-header {
+    width: 1261px;
+    height: 226px;
+    margin: 80px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.last-header-features {
+    width: 84px;
+    height: 226px;
+    text-align: left;
+}
+
+.last-header-title {
+    font-family: worksans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+}
+
+.last-header-text {
+    color: #A1A4AC;
+    opacity: 0.9;
+    margin-top: 22px;
+    mix-blend-mode: normal;
+
+    font-family: worksans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+}
+.last-header-text:hover {
+    cursor: pointer;
+    color: #b7bac2;
+}
+
+.last-header-benefits {
+    width: 109px;
+    height: 186px;
+    text-align: left;
+}
+
+.last-header-downloads {
+    text-align: left;
+    width: 177px;
+    height: 146px;
+}
+
+.last-header-recources {
+    text-align: left;
+    width: 96px;
+    height: 186px;
+}
+
+.social-media {
+    width: 1410px;
+    height: 40px;
+    margin-top: 70px;
+}
+
+.by {
+    margin-top: 3px;
+    color: #FFFFFF;
+    width: 200px;
+
+    font-family: worksans;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.by-link {
+    text-decoration: none;
+}
+
+.designed-created {
+    width: 200px;
+    float: left;
+}
+
+
+.social-media-cont {
+    margin-top: 9px;
+    width: 140px;
+    height: 20px;
+    float: right;
+}
+
+.fb {
+    margin-right: 16px;
+}
+
+.twit {
+    margin-right: 16px;
+}
+
+.yt {
+    margin-right: 16px;
+}
+
+/* ---------------------- ovals ----------------------- */
+
+.green-oval {
+    position: absolute;
+    margin-top: 3000px;
+}
+
+.black-oval {
+    position: absolute;
+    margin-top: 3700px;
+}
