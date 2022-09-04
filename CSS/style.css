@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 
 body {
@@ -514,6 +513,7 @@ body {
 .stars1 {
     width: 180px;
 }
+
 .profile-name {
     margin: 20px auto 0 31px;
 
@@ -525,53 +525,53 @@ body {
     text-align: center;
 }
 
-.center .stars{
-  height: 20px;
-  width: 20px;
-  text-align: center;
+.center .stars {
+    height: 20px;
+    width: 20px;
+    text-align: center;
 }
 
-.stars input{
-  display: none;
+.stars input {
+    display: none;
 }
 
-.stars label{
-  float: right;
-  font-size: 20px;
-  color: #A1A4AC;
-  margin: 0 5px;
-  text-shadow: 1px 1px #bbb;
+.stars label {
+    float: right;
+    font-size: 20px;
+    color: #A1A4AC;
+    margin: 0 5px;
+    text-shadow: 1px 1px #bbb;
 }
 
-.stars label:before{
-  content: '★';
+.stars label:before {
+    content: '★';
 }
 
-.stars input:checked ~ label{
-  color: #FEB062;
-  text-shadow: 1px 1px #c60;
+.stars input:checked~label {
+    color: #FEB062;
+    text-shadow: 1px 1px #c60;
 }
 
-.stars:not(:checked) > label:hover,
-.stars:not(:checked) > label:hover ~ label{
-  color: #FEB062;
+.stars:not(:checked)>label:hover,
+.stars:not(:checked)>label:hover~label {
+    color: #FEB062;
 }
 
-.stars input:checked > label:hover,
-.stars input:checked > label:hover ~ label{
-  color: #FEB062;
-  text-shadow: 1px 1px #FEB062;
+.stars input:checked>label:hover,
+.stars input:checked>label:hover~label {
+    color: #FEB062;
+    text-shadow: 1px 1px #FEB062;
 }
 
-.stars .result:before{
-  font-size: 10px;
-  font-weight: 500;
-  font-family: 'Poppins', sans-serif;
-  display: none;
+.stars .result:before {
+    font-size: 10px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    display: none;
 }
 
-.stars input:checked ~ .result:before{
-  display: block;
+.stars input:checked~.result:before {
+    display: block;
 }
 
 /* ------------------------------ Downloads Cont ------------------------------ */
@@ -581,8 +581,8 @@ body {
     height: 340px;
     margin: 280px auto 0 auto;
     border-radius: 15px;
-    background: rgb(255,255,255);
-    background: linear-gradient(0deg, rgba(255,255,255,1) 98%, rgba(20,180,92,1) 99%);
+    background: rgb(255, 255, 255);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 98%, rgba(20, 180, 92, 1) 99%);
     border: 0.5px solid #FFFFFF;
 }
 
@@ -628,6 +628,7 @@ body {
     position: absolute;
     top: 4230px;
 }
+
 .left:hover {
     height: 230px;
     width: 230px;
@@ -638,6 +639,7 @@ body {
     top: 4230px;
     right: 0;
 }
+
 .right:hover {
     height: 230px;
     width: 230px;
@@ -699,6 +701,7 @@ body {
     font-size: 14px;
     line-height: 20px;
 }
+
 .last-header-text:hover {
     cursor: pointer;
     color: #b7bac2;
@@ -785,26 +788,40 @@ body {
 /* ------------------------ Burger-menu --------------------- */
 
 .header-burger-menu {
-    border: 1px solid green;
     width: 42px;
     float: right;
     margin-right: 5px;
     position: relative;
-    top: -8px;
+    top: -4px;
+    display: none;
+}
+
+.header-burger-menu:hover {
+    cursor: pointer;
+}
+
+.header-burger-menu:hover .burger-hover {
+    display: block;
+}
+
+.burger-hover {
+    height: 105px;
+    width: 90px;
+    display: none;
+    position: absolute;
+    background-color: #FFFFFF;
 }
 
 .line1 {
     height: 5px;
     width: 40px;
     background-color: #FFFFFF;
-    border: 1px solid blue;
 }
 
 .line2 {
     height: 5px;
     width: 40px;
     background-color: #FFFFFF;
-    border: 1px solid blue;
     margin-top: 3px;
 }
 
@@ -813,7 +830,21 @@ body {
     height: 5px;
     width: 40px;
     background-color: #FFFFFF;
-    border: 1px solid blue;
+}
+
+.burger-menu-items {
+    margin-bottom: 5px;
+    color: black;
+
+    font-family: worksans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+.burger-menu-items:hover {
+    background-color: black;
+    color: #FFFFFF;
 }
 
 
@@ -902,6 +933,7 @@ body {
         width: 80vw;
         margin-top: 100px;
     }
+
     /* 1410px */
 
     .main-cont {
@@ -956,5 +988,8 @@ body {
         width: auto;
     }
 
-}
+    .header-burger-menu {
+        display: block;
+    }
 
+}
