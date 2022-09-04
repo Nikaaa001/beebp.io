@@ -64,6 +64,7 @@ body {
 .header__btn {
     width: 135px;
     height: 36px;
+    border: none;
     border-radius: 10px;
     background-color: #14B45C;
     margin-top: 1.5px;
@@ -125,6 +126,7 @@ body {
 .warehouse-btn {
     width: 206px;
     height: 52px;
+    border: none;
     border-radius: 16px;
     margin-top: 40px;
 
@@ -349,6 +351,7 @@ body {
     height: 52px;
     background: #14B45C;
     box-shadow: 0px 5px 30px rgba(50, 54, 67, 0.2);
+    border: none;
     border-radius: 16px;
     color: #FFFFFF;
 
@@ -454,7 +457,6 @@ body {
     margin-top: 60px;
     color: #1C1F28;
     background: #FFFFFF;
-    border: 1px solid #1C1F28;
 
     font-family: 'Work Sans';
     font-style: normal;
@@ -990,6 +992,10 @@ body {
 }
 
 @media only screen and (max-width: 680px) {
+
+    .howtowork {
+        margin-top: 20px;
+    }
     
     .playbtn {
         height: 20px;
@@ -1007,6 +1013,12 @@ body {
     .warehouse-cont {
         margin-top: 15px;
         margin-right: 70px;
+    }
+
+    .warehouse-btn {
+        width: 140px;
+        height: 30px;
+        font-size: 14px;
     }
 
 }
