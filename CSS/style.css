@@ -941,6 +941,21 @@ body {
         width: 98vw;
     }
 
+    .analitycs-title {
+        margin: 5px 0 0 400px;
+        text-align: none;
+        float: left;
+    }
+
+    .conts-cont {
+        margin-top: 800px;
+    }
+
+    .main-cont {
+        border: 2px solid green;
+        height: 600px;
+    }
+
 }
 
 @media only screen and (max-width: 1000px) {
