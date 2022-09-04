@@ -1019,6 +1019,39 @@ body {
         width: 140px;
         height: 30px;
         font-size: 14px;
+        margin-top: 22px;
     }
 
+}
+
+@media only screen and (max-width: 500px) {
+
+    .warehouse-cont {
+        margin-top: 5px;
+        margin-right: 70px;
+    }
+
+    .warehouse-title {
+        font-size: 17px;
+        height: 30px;
+        line-height: 30px;
+    }
+
+    .warehouse-text {
+        margin-top: 5px;
+    }
+
+    .warehouse-btn {
+        margin-top: 10px;
+    }
+
+    .howtowork {
+        margin-top: 12px;
+    }
+} 
+
+@media only screen and (max-width: 460px) {
+    .warehouse-cont {
+        margin-top: 2px;
+    }
 }
