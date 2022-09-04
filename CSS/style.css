@@ -874,7 +874,6 @@ body {
         margin-top: 180px;
         width: 410px;
         height: 200px;
-        border: 1px solid green;
     }
 
     .warehouse-title {
@@ -950,10 +949,6 @@ body {
         height: 30px;
     }
 
-    .header {
-        border: 1px solid green;
-    }
-
 }
 
 @media only screen and (max-width: 850px) {
@@ -992,4 +987,8 @@ body {
         display: block;
     }
 
+}
+
+@media only screen and (max-width: 680px) {
+    
 }
