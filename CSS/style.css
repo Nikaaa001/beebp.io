@@ -1086,3 +1086,44 @@ body {
     }
 
 }
+
+@media only screen and (max-width: 410px) {
+
+    .warehouse-title {
+        font-size: 16px;
+    }
+
+    .warehouse-text {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .playtext {
+        margin-left: 1px;
+    }
+
+    .howtowork {
+        margin-right: auto;
+        margin-left: auto;
+        width: 140px;
+        height: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 390px) {
+
+    .warehouse-title {
+        font-size: 15px;
+    }
+
+    .warehouse-text {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .warehouse-cont {
+        margin-right: 50px;
+    }
+
+}
