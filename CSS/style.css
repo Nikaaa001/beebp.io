@@ -1141,3 +1141,37 @@ body {
     }
 
 }
+
+@media only screen and (max-width: 357px) {
+
+    .warehouse-title {
+        font-size: 14px;
+    }
+   
+    .warehouse-text {
+        font-size: 11px;
+        line-height: 13px;
+    }
+
+    .warehouse-cont {
+        margin-right: 40px;
+    }
+
+}
+
+@media only screen and (max-width: 332px) {
+
+    .warehouse-title {
+        font-size: 13px;
+    }
+   
+    .warehouse-text {
+        font-size: 10px;
+        line-height: 13px;
+    }
+
+    .warehouse-cont {
+        margin-right: 45px;
+    }
+
+}
