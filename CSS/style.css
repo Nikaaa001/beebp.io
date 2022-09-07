@@ -177,7 +177,8 @@ body {
 
 .analytics-cont {
     margin-top: 120px;
-    width: 1409px;
+    max-width: 1409px;
+    width: 100%;
     height: 540px;
 }
 
@@ -909,6 +910,34 @@ body {
 
 }
 
+@media only screen and (max-width: 1360px) {
+    
+    .conts-cont {
+        border: 2px solid red;
+        height: auto;
+    }
+
+    .secured-cont {
+        border: 1px solid green;
+        margin: 0 20px;
+    }
+
+    .detailed-cont {
+        margin: 0 20px;
+        border: 1px solid green;
+    }
+
+    .busines-cont {
+        margin: 0 20px;
+        border: 1px solid red;
+    }
+
+    .analytics-cont {
+        margin-top: 80px;
+    }
+
+}
+
 @media only screen and (max-width: 1250px) {
 
     .page1iphone {
@@ -919,6 +948,18 @@ body {
     .warehouse-cont {
         margin-top: 120px;
         margin-right: 70px;
+    }
+
+    .analytics-cont {
+        margin-top: 110px;
+    }
+
+}
+
+@media only screen and (max-width: 1150px) {
+
+    .analytics-cont {
+        margin-top: 80px;
     }
 
 }
@@ -936,23 +977,8 @@ body {
     }
 
     /* 1410px */
-
-    .main-cont {
-        width: 98vw;
-    }
-
-    .analitycs-title {
-        margin: 5px 0 0 400px;
-        text-align: none;
-        float: left;
-    }
-
-    .conts-cont {
-        margin-top: 800px;
-    }
-
-    .main-cont {
-        height: 600px;
+    .analytics-cont {
+        margin-top: 600px;
     }
 
 }
@@ -963,6 +989,10 @@ body {
         margin-top: 4px;
         width: 100px;
         height: 30px;
+    }
+
+    .analytics-cont {
+        margin-top: 530px;
     }
 
 }
@@ -1003,7 +1033,34 @@ body {
         display: block;
     }
 
+    .analytics-cont {
+        margin-top: 450px;
+    }
+
 }
+
+@media only screen and (max-width: 730px) {
+
+    .secured-cont {
+        border: 1px solid green;
+        margin: 0 10px;
+    }
+
+    .detailed-cont {
+        margin: 0 10px;
+        border: 1px solid green;
+    }
+
+    .busines-cont {
+        margin: 0 10px;
+        border: 1px solid red;
+    }
+    
+    .analytics-cont {
+        margin-top: 430px;
+    }
+
+} 
 
 @media only screen and (max-width: 680px) {
 
@@ -1036,6 +1093,10 @@ body {
         margin-top: 22px;
     }
 
+    .analytics-cont {
+        margin-top: 380px;
+    }
+
 }
 
 @media only screen and (max-width: 500px) {
@@ -1062,6 +1123,12 @@ body {
     .howtowork {
         margin-top: 10px;
     }
+
+    .analytics-cont {
+        margin-top: 270px;
+    }
+
+
 } 
 
 @media only screen and (max-width: 460px) {
