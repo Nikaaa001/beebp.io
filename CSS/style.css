@@ -1128,6 +1128,18 @@ body {
         margin-top: 270px;
     }
 
+    .secured-cont {
+        margin: 0;
+    }
+
+    .detailed-cont {
+        margin: 0 10px;
+    }
+
+    .busines-cont {
+        margin: 0;
+    }
+
 
 } 
 
@@ -1164,6 +1176,10 @@ body {
 
     .howtowork {
         margin-top: 7px;
+    }
+
+    .analytics-cont {
+        margin-top: 210px;
     }
 
 }
@@ -1207,6 +1223,10 @@ body {
         margin-right: 50px;
     }
 
+    .analytics-cont {
+        margin-top: 220px;
+    }
+
 }
 
 @media only screen and (max-width: 357px) {
@@ -1224,6 +1244,10 @@ body {
         margin-right: 40px;
     }
 
+    .analytics-cont {
+        margin-top: 190px;
+    }
+
 }
 
 @media only screen and (max-width: 332px) {
@@ -1239,6 +1263,18 @@ body {
 
     .warehouse-cont {
         margin-right: 45px;
+    }
+
+    .analytics-cont {
+        margin-top: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 327px) {
+
+    .warehouse-cont {
+        margin-right: 40px;
     }
 
 }
