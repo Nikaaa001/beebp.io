@@ -1099,6 +1099,22 @@ body {
 
 }
 
+@media only screen and (max-width: 600px) {
+
+    .shield-logo {
+        margin-top: 10px;
+    }
+
+    .shield-title {
+        margin-top: 15px;
+    }
+
+    .secured-text {
+        margin-top: 10px;
+    }
+
+}
+
 @media only screen and (max-width: 500px) {
 
     .warehouse-cont {
@@ -1208,6 +1224,14 @@ body {
 
 }
 
+@media only screen and (max-width: 406px) {
+
+    .analitycs-title {
+        font-size: 30px;
+    }
+
+}
+
 @media only screen and (max-width: 390px) {
 
     .warehouse-title {
@@ -1223,9 +1247,13 @@ body {
         margin-right: 50px;
     }
 
-    .analytics-cont {
-        margin-top: 220px;
+    .analytics-cont{
+        margin-top: 100px;
     }
+
+}
+
+@media only screen and (max-width: 370px) {
 
 }
 
@@ -1245,7 +1273,20 @@ body {
     }
 
     .analytics-cont {
-        margin-top: 190px;
+        margin-top: 200px;
+    }
+
+}
+
+@media only screen and (max-width: 350px) {
+
+    .shield-title {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .secured-text {
+        font-size: 15px;
     }
 
 }
@@ -1275,6 +1316,16 @@ body {
 
     .warehouse-cont {
         margin-right: 40px;
+    }
+
+    .warehouse-btn {
+        width: 110px;
+        height: 25px;
+        font-size: 11px;
+    }
+
+    .playtext {
+        font-size: 11px;
     }
 
 }
