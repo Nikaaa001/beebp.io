@@ -1173,6 +1173,10 @@ body {
         margin-top: 12px;
     }
 
+    .conts-cont {
+        margin: 0 5px;
+    }
+
 }
 
 @media only screen and (max-width: 430px) {
