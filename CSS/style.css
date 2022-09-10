@@ -69,6 +69,7 @@ body {
     background-color: #14B45C;
     margin-top: 1.5px;
     float: right;
+    margin-right: 5px;
 
     font-family: worksans;
     font-style: normal;
@@ -1116,24 +1117,20 @@ body {
 
     .conts-cont {
         display: grid;
-        border: 2px solid black;
         justify-content: center;
     }
 
     .secured-cont {
-        border: 2px solid green;
         height: 220px;
     }
 
     .detailed-cont {
         margin-top: 10px;
-        border: 2px solid blue;
         height: 220px;
     }
 
     .busines-cont {
         margin-top: 10px;
-        border: 2px solid red;
         height: 220px;
     }
 
