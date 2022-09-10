@@ -1601,30 +1601,35 @@ body {
 
     .detailes1 {
         display: grid;
+        width: 302px;
     }
 
     .detailes2 {
-        margin: 0 auto;
+        margin: -40px auto 0 auto;
         display: grid;
         height: auto;
-        width: 190px;
+        width: 302px;
     }
 
     .orderinformation-cont {
-        height: 180px;
+        width: 300px;
+        height: 130px;
     }
 
     .orderinformation-cont1 {
-        height: 180px;
+        width: 300px;
+        height: 130px;
         margin-top: 3px;
     }
 
     .orderinformation-cont2 {
-        height: 180px;
+        width: 300px;
+        height: 130px;
     }
 
     .orderinformation-cont3 {
-        height: 180px;
+        width: 300px;
+        height: 130px;
         margin-top: 3px;
     }
 
