@@ -260,12 +260,10 @@ body {
     width: 97vw;
     height: 1225px;
     text-align: center;
-    border: 2px solid green;
 }
 
 .page3-cont {
     justify-content: space-between;
-    border: 2px solid red;
     text-align: center;
     margin: auto 0;
     display: flex;
@@ -1290,7 +1288,6 @@ body {
         display: flex;
         width: auto;
         height: auto;
-        border: 2px solid red;
         margin: 0 auto;
         margin-bottom: -25px;
     }
@@ -1299,7 +1296,6 @@ body {
         display: flex;
         width: auto;
         height: auto;
-        border: 2px solid red;
         margin-top: -35px;
     }
 
@@ -1850,6 +1846,10 @@ body {
 
     .busines-cont {
         width: 280px;
+    }
+
+    .page3 {
+        margin-top: 340px;
     }
 
 }
