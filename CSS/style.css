@@ -253,11 +253,22 @@ body {
 /* ------------------------------- Page3 ------------------------------- */
 
 .page3 {
-    margin-top: 165px;
-    width: 1400px;
+    margin-top: 100px;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 97vw;
     height: 1225px;
-    display: flex;
+    text-align: center;
+    border: 2px solid green;
+}
+
+.page3-cont {
     justify-content: space-between;
+    border: 2px solid red;
+    text-align: center;
+    margin: auto 0;
+    display: flex;
 }
 
 .detailes1 {
@@ -272,22 +283,12 @@ body {
     margin-top: 221px;
 }
 
-.orderinformation-cont {
-    width: 420px;
-    height: 252px;
-
-    background: #FFFFFF;
-    box-shadow: 0px 10px 50px rgba(7, 42, 68, 0.04);
-    border-radius: 15px;
-}
-
 .basket-logo {
-    margin: 40px 0 0 40px;
+    margin-top: 40px;
 }
 
 .basket-title {
-    margin-left: 40px;
-
+    text-align: center;
     font-family: worksans;
     font-style: normal;
     font-weight: 400;
@@ -299,7 +300,6 @@ body {
 
 .basket-text {
     margin-top: 41px;
-    margin-left: 40px;
 
     font-family: worksans;
     font-style: normal;
@@ -310,10 +310,21 @@ body {
     color: #7A7C82;
 }
 
+.orderinformation-cont {
+    width: 420px;
+    height: 252px;
+    text-align: center;
+
+    background: #FFFFFF;
+    box-shadow: 0px 10px 50px rgba(7, 42, 68, 0.04);
+    border-radius: 15px;
+}
+
 .orderinformation-cont1 {
     width: 420px;
     height: 252px;
     margin-top: 80px;
+    text-align: center;
 
     background: #FFFFFF;
     box-shadow: 0px 10px 50px rgba(7, 42, 68, 0.04);
@@ -323,6 +334,7 @@ body {
 .orderinformation-cont2 {
     width: 420px;
     height: 252px;
+    text-align: center;
 
     background: #FFFFFF;
     box-shadow: 0px 10px 50px rgba(7, 42, 68, 0.04);
@@ -332,6 +344,7 @@ body {
 .orderinformation-cont3 {
     width: 420px;
     height: 252px;
+    text-align: center;
     margin-top: 80px;
 
     background: #FFFFFF;
@@ -345,10 +358,18 @@ body {
     margin-top: 135px;
 }
 
+.page3-btn-cont {
+    max-width: 1430px;
+    width: 100%;
+    height: 50px;
+    margin-top: 1100px;
+    border: 2px solid red;
+}
+
 .page3-btn {
-    position: absolute;
+    /* position: absolute;
     margin-top: 920px;
-    margin-left: 596px;
+    margin-left: 596px; */
     width: 206px;
     height: 52px;
     background: #14B45C;
@@ -951,7 +972,87 @@ body {
         margin-top: 110px;
     }
 
+    .detailes1 {
+        width: 380px;
+    }
+
+    .detailes2 {
+        width: 380px;
+    }
+
+    .orderinformation-cont {
+        width: 380px;
+    }
+
+    .orderinformation-cont1 {
+        width: 380px;
+    }
+
+    .orderinformation-cont2 {
+        width: 380px;
+    }
+
+    .orderinformation-cont3 {
+        width: 380px;
+    }
+
 }
+
+@media only screen and (max-width: 1160px) {
+
+    .detailes1 {
+        width: 350px;
+    }
+
+    .detailes2 {
+        width: 350px;
+    }
+
+    .orderinformation-cont {
+        width: 350px;
+    }
+
+    .orderinformation-cont1 {
+        width: 350px;
+    }
+
+    .orderinformation-cont2 {
+        width: 350px;
+    }
+
+    .orderinformation-cont3 {
+        width: 350px;
+    }
+
+}
+
+@media only screen and (max-width: 1101px) {
+
+    .detailes1 {
+        width: 320px;
+    }
+
+    .detailes2 {
+        width: 320px;
+    }
+
+    .orderinformation-cont {
+        width: 320px;
+    }
+
+    .orderinformation-cont1 {
+        width: 320px;
+    }
+
+    .orderinformation-cont2 {
+        width: 320px;
+    }
+
+    .orderinformation-cont3 {
+        width: 320px;
+    }
+
+} 
 
 @media only screen and (max-width: 1150px) {
 
@@ -980,6 +1081,39 @@ body {
 
 }
 
+@media only screen and (max-width: 1040px) {
+
+    .detailes1 {
+        width: 300px;
+    }
+
+    .detailes2 {
+        width: 300px;
+    }
+
+    .orderinformation-cont {
+        width: 300px;
+    }
+
+    .orderinformation-cont1 {
+        width: 300px;
+    }
+
+    .orderinformation-cont2 {
+        width: 300px;
+    }
+
+    .orderinformation-cont3 {
+        width: 300px;
+    }
+
+    .basket-text {
+        margin-top: 25px;
+        line-height: 20px;
+    }
+
+}
+
 @media only screen and (max-width: 1000px) {
 
     .header__btn {
@@ -992,7 +1126,115 @@ body {
         margin-top: 530px;
     }
 
+    .page3 {
+        margin-top: -100px;
+    }
+
+    .detailes1 {
+        width: 280px;
+    }
+
+    .detailes2 {
+        width: 280px;
+    }
+
+    .orderinformation-cont {
+        width: 280px;
+    }
+
+    .orderinformation-cont1 {
+        width: 280px;
+    }
+
+    .orderinformation-cont2 {
+        width: 280px;
+    }
+
+    .orderinformation-cont3 {
+        width: 280px;
+    }
+
 }
+
+@media only screen and (max-width: 960px) {
+
+    .detailes1 {
+        width: 250px;
+    }
+
+    .detailes2 {
+        width: 250px;
+    }
+
+    .orderinformation-cont {
+        width: 250px;
+    }
+
+    .orderinformation-cont1 {
+        width: 250px;
+    }
+
+    .orderinformation-cont2 {
+        width: 250px;
+    }
+
+    .orderinformation-cont3 {
+        width: 250px;
+    }
+
+    .basket-text {
+        font-size: 15px;
+    }
+
+    .basket-title {
+        font-size: 20px;
+    }
+
+    .basket-logo {
+        margin-top: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 895px) {
+
+    .detailes1 {
+        width: 230px;
+    }
+
+    .detailes2 {
+        width: 230px;
+    }
+
+    .orderinformation-cont {
+        width: 230px;
+        text-align: center;
+    }
+
+    .orderinformation-cont1 {
+        width: 230px;
+        text-align: center;
+    }
+
+    .orderinformation-cont2 {
+        width: 230px;
+    }
+
+    .orderinformation-cont3 {
+        width: 230px;
+    }
+
+}
+
+@media only screen and (max-width: 860px) {
+
+    .iphonex {
+        margin-top: 165px;
+        width: 300px;
+        height: 700px;
+    }
+
+} 
 
 @media only screen and (max-width: 850px) {
 
@@ -1035,6 +1277,55 @@ body {
         margin-top: 450px;
     }
 
+}
+
+@media only screen and (max-width: 790px) {
+
+    .page3-cont {
+        display: grid;
+        justify-content: center;
+    }
+
+    .detailes1 {
+        display: flex;
+        width: auto;
+        height: auto;
+        border: 2px solid red;
+        margin: 0 auto;
+        margin-bottom: -25px;
+    }
+
+    .detailes2 {
+        display: flex;
+        width: auto;
+        height: auto;
+        border: 2px solid red;
+        margin-top: -35px;
+    }
+
+    .orderinformation-cont {
+        height: 230px;
+        margin-right: 10px;
+    }
+
+    .orderinformation-cont1 {
+        height: 230px;
+        margin-top: 0;
+    }
+
+    .orderinformation-cont2 {
+        height: 200px;
+        margin-right: 10px;
+    }
+
+    .orderinformation-cont3 {
+        height: 200px;
+        margin-top: 0;
+    }
+
+    .iphonex {
+        margin: 0 auto;
+    }
 }
 
 @media only screen and (max-width: 730px) {
@@ -1135,6 +1426,14 @@ body {
         height: 220px;
     }
 
+    .page3 {
+        margin-top: 200px;
+    }
+
+    .iphonex {
+        height: 590px;
+    }
+
 }
 
 @media only screen and (max-width: 530px) {
@@ -1174,7 +1473,56 @@ body {
         margin-top: 270px;
     }
 
+    .orderinformation-cont {
+        width: 210px;
+    }
+
+    .orderinformation-cont1 {
+        width: 210px;
+    }
+
+    .orderinformation-cont2 {
+        width: 210px;
+    }
+
+    .orderinformation-cont3 {
+        width: 210px;
+    }
+
+    .basket-logo {
+        margin-top: 5px;
+    }
+
+    .basket-text {
+        margin-top: 5px;
+    }
+
 } 
+
+@media only screen and (max-width: 465px) {
+
+    .orderinformation-cont {
+        width: 190px;
+    }
+
+    .orderinformation-cont1 {
+        width: 190px;
+    }
+
+    .orderinformation-cont2 {
+        width: 190px;
+    }
+
+    .orderinformation-cont3 {
+        width: 190px;
+    }
+
+    .basket-title {
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+}
 
 @media only screen and (max-width: 460px) {
     .warehouse-cont {
@@ -1246,6 +1594,41 @@ body {
     .busines-cont {
         width: 350px;
     }
+
+}
+
+@media only screen and (max-width: 420px) {
+
+    .detailes1 {
+        display: grid;
+    }
+
+    .detailes2 {
+        margin: 0 auto;
+        display: grid;
+        height: auto;
+        width: 190px;
+    }
+
+    .orderinformation-cont {
+        height: 180px;
+    }
+
+    .orderinformation-cont1 {
+        height: 180px;
+        margin-top: 3px;
+    }
+
+    .orderinformation-cont2 {
+        height: 180px;
+    }
+
+    .orderinformation-cont3 {
+        height: 180px;
+        margin-top: 3px;
+    }
+
+
 
 }
 
