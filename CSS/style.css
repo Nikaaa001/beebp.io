@@ -69,7 +69,7 @@ body {
     background-color: #14B45C;
     margin-top: 1.5px;
     float: right;
-    margin-right: 5px;
+    margin-right: 10px;
 
     font-family: worksans;
     font-style: normal;
@@ -1010,6 +1010,7 @@ body {
 
     .logo {
         margin-top: 1px;
+        margin-left: 10px;
         width: 120px;
         height: 35px;
     }
