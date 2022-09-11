@@ -506,7 +506,7 @@ body {
 
 .page5 {
     max-width: 900px;
-    width: 100%;
+    width: 98%;
     height: 276px;
     margin: 280px auto 0 auto;
 }
@@ -886,6 +886,18 @@ body {
 
 /* ------------------------ Responsive --------------------- */
 
+@media only screen and (max-width: 2000px) {
+
+    .right {
+        top: 4152px;
+    }
+
+    .left {
+        top: 4152px;
+    }
+
+}
+
 @media only screen and (max-width: 1655px) {
 
     .page1iphone {
@@ -895,6 +907,18 @@ body {
 
     .warehouse-cont {
         margin-top: 220px;
+    }
+
+    .right {
+        top: 4039px;
+    }
+
+    .left {
+        top: 4039px;
+    }
+
+    .black-oval {
+        margin-top: 3593px;
     }
 
 }
@@ -947,6 +971,18 @@ body {
         margin-top: 2800px;
     }
 
+    .right {
+        top: 3920px;
+    }
+
+    .left {
+        top: 3920px;
+    }
+
+    .black-oval {
+        margin-top: 3440px;
+    }
+
 }
 
 @media only screen and (max-width: 1360px) {
@@ -969,6 +1005,14 @@ body {
 
     .analytics-cont {
         margin-top: 80px;
+    }
+
+    .right {
+        top: 3870px;
+    }
+    
+    .left {
+        top: 3870px;
     }
 
 }
@@ -1035,6 +1079,32 @@ body {
 
     .green-oval {
         margin-top: 2700px;
+    }
+
+    .left {
+        width: 180px;
+        height: 180px;
+        top: 3810px;
+    }
+    .left:hover {
+        width: 190px;
+        height: 190px;
+    }
+
+    .right {
+        width: 180px;
+        height: 180px;
+        top: 3810px;
+    }
+    .right:hover {
+        width: 190px;
+        height: 190px;
+    }
+
+    .black-oval {
+        width: 70px;
+        height: 600px;
+        margin-top: 3400px;
     }
 
 }
@@ -1107,6 +1177,19 @@ body {
 
     .green-oval {
         margin-top: 2670px;
+    }
+
+    .left {
+        top: 3785px;
+    }
+
+    .right {
+        top: 3785px;
+    }
+
+    .page5-text {
+        font-size: 20px;
+        width: 890px;
     }
 
 }
@@ -1188,6 +1271,27 @@ body {
 
     .green-oval {
         margin-top: 2600px;
+    }
+
+    .left {
+        top: 3735px;
+    }
+
+    .right {
+        top: 3735px;
+    }
+
+    .page5-text {
+        width: 750px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .black-oval {
+        width: 55px;
+        height: 500px;
+        margin-top: 3300px;
     }
 
 }
@@ -1302,6 +1406,31 @@ body {
         margin-top: 2430px;
     }
 
+    .right {
+        width: 150px;
+        height: 150px;
+        top: 3550px;
+        right: -10px;
+    }
+    .right:hover {
+        width: 160px;
+        height: 160px;
+    }
+
+    .left {
+        width: 150px;
+        height: 150px;
+        top: 3550px;
+    }
+    .left:hover {
+        width: 160px;
+        height: 160px;
+    }
+
+    .black-oval {
+        margin-top: 3140px;
+    }
+
 }
 
 @media only screen and (max-width: 960px) {
@@ -1340,6 +1469,14 @@ body {
 
     .basket-logo {
         margin-top: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 935px) {
+
+    .page5-text {
+        width: 650px;
     }
 
 }
@@ -1411,6 +1548,26 @@ body {
         margin-top: 2370px;
     }
 
+    .page5-title {
+        font-size: 30px;
+    }
+
+    .page5-text {
+        font-size: 20px;
+    }
+
+    .right {
+        top: 3495px;
+    }
+
+    .left {
+        top: 3495px;
+    }
+
+    .black-oval {
+        margin-top: 3100px;
+    }
+
 }
 
 @media only screen and (max-width: 860px) {
@@ -1419,6 +1576,24 @@ body {
         margin-top: 165px;
         width: 300px;
         height: 700px;
+    }
+
+    .left {
+        width: 130px;
+        height: 130px;
+    }
+    .left:hover {
+        width: 140px;
+        height: 140px;
+    }
+
+    .right {
+        width: 130px;
+        height: 130px;
+    }
+    .right:hover {
+        width: 140px;
+        height: 140px;
     }
 
 }
@@ -1500,6 +1675,29 @@ body {
         height: 300px;
         width: 40px;
     }
+
+    .left {
+        top: 3455px;
+    }
+
+    .right {
+        top: 3455px;
+    }
+
+    .page5-text {
+        font-size: 16px;
+        line-height: 18px;
+        width: 550px;
+    }
+
+}
+
+@media only screen and (max-width: 825px) {
+
+    .page5-text {
+        font-size: 18px;
+    }
+
 }
 
 @media only screen and (max-width: 790px) {
@@ -1580,6 +1778,19 @@ body {
     }
 }
 
+@media only screen and (max-width: 750px) {
+
+    .page5-text {
+        width: 650px;
+        margin: 20px auto;
+    }
+
+    .black-oval {
+        margin-top: 3000px;
+    }
+
+}
+
 @media only screen and (max-width: 730px) {
 
     .secured-cont {
@@ -1627,6 +1838,19 @@ body {
         margin-top: 2340px;
     }
 
+    .left {
+        top: 3375px;
+    }
+
+    .right {
+        top: 3375px;
+    }
+
+    .black-oval {
+        width: 40px;
+        height: 400px;
+    }
+
 }
 
 @media only screen and (max-width: 680px) {
@@ -1668,6 +1892,18 @@ body {
         margin-top: 2290px;
     }
 
+    .page5-text {
+        width: 560px;
+    }
+
+    .left {
+        top: 3330px;
+    }
+
+    .right {
+        top: 3330px;
+    }
+
 }
 
 @media only screen and (max-width: 635px) {
@@ -1706,6 +1942,10 @@ body {
         height: auto;
     }
 
+    .page5 {
+        margin-top: 170px;
+    }
+
 }
 
 @media only screen and (max-width: 620px) {
@@ -1714,6 +1954,21 @@ body {
         margin-top: 10px;
     }
 
+}
+
+@media only screen and (max-width: 612px) {
+
+    .left {
+        top: 3550px;
+    }
+    
+    .right {
+        top: 3550px;
+    }
+
+    .black-oval {
+        margin-top: 3150px;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -1778,6 +2033,27 @@ body {
         margin-top: 80px;
     }
 
+    .page5-text {
+        font-size: 16px;
+        width: 460px;
+    }
+
+    .page5-title {
+        font-size: 25px;
+    }
+
+    .left {
+        top: 3586px;
+    }
+
+    .right {
+        top: 3586px;
+    }
+
+    .black-oval {
+        margin-top: 3250px;
+    }
+
 }
 
 @media only screen and (max-width: 530px) {
@@ -1788,6 +2064,40 @@ body {
 
     .green-oval {
         margin-top: 2250px;
+    }
+
+    .left {
+        top: 3530px;
+    }
+
+    .right {
+        top: 3530px;
+    }
+
+    .black-oval {
+        margin-top: 3160px;
+    }
+
+}
+
+@media only screen and (max-width: 490px) {
+
+    .left {
+        width: 110px;
+        height: 110px;
+    }
+    .left:hover {
+        width: 115px;
+        height: 115px;
+    }
+
+    .right {
+        width: 110px;
+        height: 110px;
+    }
+    .right:hover {
+        width: 115px;
+        height: 115px;
     }
 
 }
@@ -1860,6 +2170,14 @@ body {
 
 }
 
+@media only screen and (max-width: 480px) {
+
+    .page5-text {
+        width: 380px;
+    }
+
+}
+
 @media only screen and (max-width: 465px) {
 
     .orderinformation-cont {
@@ -1910,6 +2228,19 @@ body {
     .green-oval {
         margin-top: 2220px;
     }
+
+    .left {
+        top: 3491px;
+    }
+
+    .right {
+        top: 3491px;
+    }
+
+    .black-oval {
+        margin-top: 3127px;
+    }
+
 }
 
 @media only screen and (max-width: 440px) {
@@ -1960,6 +2291,30 @@ body {
         width: 350px;
     }
 
+    .left {
+        top: 3465px;
+        width: 100px;
+        height: 100px;
+    }
+    .left:hover {
+        width: 105px;
+        height: 105px;
+    }
+
+    .right {
+        top: 3465px;
+        width: 100px;
+        height: 100px;
+    }
+    .right:hover {
+        width: 105px;
+        height: 105px;
+    }
+
+    .black-oval {
+        margin-top: 3100px;
+    }
+
 }
 
 @media only screen and (max-width: 420px) {
@@ -2007,7 +2362,14 @@ body {
         line-height: 15px;
     }
 
+    .page5-title {
+        font-size: 22px;
+    }
 
+    .page5-text {
+        font-size: 14px;
+        width: 350px;
+    }
 
 }
 
@@ -2071,6 +2433,18 @@ body {
         margin-top: 2160px;
     }
 
+    .page5-text {
+        margin-top: 10px;
+    }
+
+    .left {
+        top: 3445px;
+    }
+
+    .right {
+        top: 3445px;
+    }
+
 }
 
 @media only screen and (max-width: 390px) {
@@ -2101,6 +2475,18 @@ body {
         margin-top: 2000px;
     }
 
+    .left {
+        top: 3412px;
+    }
+
+    .right {
+        top: 3412px;
+    }
+
+    .black-oval {
+        margin-top: 3050px;
+    }
+
 }
 
 @media only screen and (max-width: 380px) {
@@ -2127,6 +2513,30 @@ body {
     .busines-cont {
         width: 320px;
         height: 200px;
+    }
+
+}
+
+@media only screen and (max-width: 375px) {
+
+    .page5-text {
+        font-size: 12px;
+        width: 300px;
+    }
+
+    .kimberly-photo {
+        height: 80px;
+        width: 80px;
+        margin-left: 10px;
+    }
+
+    .profile-name {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .stars1 {
+        margin: 0 auto;
     }
 
 }
@@ -2164,6 +2574,14 @@ body {
 
     .analytics-cont {
         margin-top: 200px;
+    }
+
+    .left {
+        top: 3430px;
+    }
+
+    .right {
+        top: 3430px;
     }
 
 }
@@ -2256,6 +2674,30 @@ body {
 
     .page3 {
         margin-top: 340px;
+    }
+
+    .left {
+        top: 3400px;
+        width: 80px;
+        height: 80px;
+    }
+    .left:hover {
+        height: 85px;
+        width: 85px;
+    }
+
+    .right {
+        height: 80px;
+        width: 80px;
+        top: 3400px;
+    }
+    .right:hover {
+        height: 85px;
+        width: 85px;
+    }
+
+    .black-oval {
+        margin-top: 3000px;
     }
 
 }
