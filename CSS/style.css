@@ -612,20 +612,25 @@ body {
 /* ------------------------------ Downloads Cont ------------------------------ */
 
 .downloads-cont {
-    width: 1140px;
+    max-width: 1140px;
+    width: 98%;
     height: 340px;
     margin: 280px auto 0 auto;
     border-radius: 15px;
     background: rgb(255, 255, 255);
     background: linear-gradient(0deg, rgba(255, 255, 255, 1) 98%, rgba(20, 180, 92, 1) 99%);
     border: 0.5px solid #FFFFFF;
+    text-align: center;
+    justify-content: center;
 }
 
 .download-buttons {
-    width: 520px;
+    max-width: 520px;
+    width: 98%;
     height: 156px;
     margin: 92px auto;
     text-align: center;
+    justify-content: center;
 }
 
 .downloads-title {
@@ -2056,6 +2061,22 @@ body {
 
 }
 
+@media only screen and (max-width: 547px) {
+
+    .downloads-title {
+        font-size: 20px;
+        width: 450px;
+        margin: 0 auto;
+    }
+
+    .downloads-text {
+        font-size: 14px;
+        width: 440px;
+        margin: 20px auto 0 auto;
+    }
+
+}
+
 @media only screen and (max-width: 530px) {
 
     .analytics-cont {
@@ -2076,28 +2097,6 @@ body {
 
     .black-oval {
         margin-top: 3160px;
-    }
-
-}
-
-@media only screen and (max-width: 490px) {
-
-    .left {
-        width: 110px;
-        height: 110px;
-    }
-    .left:hover {
-        width: 115px;
-        height: 115px;
-    }
-
-    .right {
-        width: 110px;
-        height: 110px;
-    }
-    .right:hover {
-        width: 115px;
-        height: 115px;
     }
 
 }
@@ -2153,6 +2152,40 @@ body {
 
     .basket-text {
         margin-top: 5px;
+    }
+
+    .downloads-title {
+        width: 400px;
+    }
+    
+    .downloads-text {
+        width: 400px;
+    }
+
+    .download-buttons {
+        height: auto;
+    }
+
+}
+
+@media only screen and (max-width: 490px) {
+
+    .left {
+        width: 110px;
+        height: 110px;
+    }
+    .left:hover {
+        width: 115px;
+        height: 115px;
+    }
+
+    .right {
+        width: 110px;
+        height: 110px;
+    }
+    .right:hover {
+        width: 115px;
+        height: 115px;
     }
 
 }
@@ -2313,6 +2346,20 @@ body {
 
     .black-oval {
         margin-top: 3100px;
+    }
+
+    .downloads-title {
+        font-size: 18px;
+        width: 350px;
+    }
+
+    .downloads-text {
+        width: 350px;
+        font-size: 13px;
+    }
+
+    .download-buttons {
+        margin-top: 25px;
     }
 
 }
@@ -2515,6 +2562,16 @@ body {
         height: 200px;
     }
 
+    .downloads-title {
+        font-size: 16px;
+        width: 300px;
+    }
+
+    .downloads-text {
+        font-size: 12px;
+        width: 300px;
+    }
+
 }
 
 @media only screen and (max-width: 375px) {
@@ -2698,6 +2755,18 @@ body {
 
     .black-oval {
         margin-top: 3000px;
+    }
+
+    .downloads-text {
+        width: 280px;
+    }
+
+    .downloads-title {
+        width: 280px;
+    }
+
+    .playstore {
+        margin-right: 2px;
     }
 
 }
