@@ -689,14 +689,21 @@ body {
 
 .last-cont {
     text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: -999;
+    width: 100%;
+    max-height: 100%;
+    border: 2px solid red;
 }
 
-.last-bg {
+.last-bg0 {
     position: absolute;
-    z-index: -88;
-    top: 4857px;
-    max-width: 1920px;
-    width: 100vw;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .lastpage-logo {
@@ -725,6 +732,7 @@ body {
     font-weight: 600;
     font-size: 14px;
     line-height: 16px;
+    position: absolute;
 
     color: #FFFFFF;
 }
@@ -926,6 +934,10 @@ body {
         margin-top: 3593px;
     }
 
+    .downloads-cont {
+        margin-top: 390px;
+    }
+
 }
 
 @media only screen and (max-width: 1430px) {
@@ -1018,6 +1030,15 @@ body {
     
     .left {
         top: 3870px;
+    }
+
+}
+
+@media only screen and (max-width: 1310px) {
+
+    .last-header {
+        border: 2px solid green;
+        width: 92vw;
     }
 
 }
@@ -1793,6 +1814,31 @@ body {
     .black-oval {
         margin-top: 3000px;
     }
+
+}
+
+@media only screen and (max-width: 740px) {
+
+    .last-header {
+        justify-content: none;
+    }
+
+    .last-header-features {
+        margin-top: -130px;
+    }
+
+    .last-header-benefits {
+        margin-top: -130px;
+    }
+
+    .last-header-downloads {
+        margin-top: -130px;
+    }
+
+    .last-header-recources {
+        margin-top: 100px;
+    }
+
 
 }
 
