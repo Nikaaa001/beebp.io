@@ -2060,21 +2060,23 @@ body {
         margin-top: 10px;
     }
 
-    .last-header
+    .last-header {
+        display: grid;
+    }
 
     .last-header-features {
         margin-right: 25px;
-        margin-top: -130px;
+        margin-top: 30px;
     }
 
     .last-header-benefits {
         margin-right: 25px;
-        margin-top: -130px;
+        margin-top: 30px;
     }
 
     .last-header-downloads {
         margin-right: 25px;
-        margin-top: -130px;
+        margin-top: 30px;
     }
 
     .last-header-recources {
