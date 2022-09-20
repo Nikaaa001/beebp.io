@@ -798,14 +798,19 @@ body {
 .designed-created {
     width: 200px;
     float: left;
+    position: absolute;
+    bottom: 10px;
 }
 
 
 .social-media-cont {
+    bottom: 10px;
     margin-top: 9px;
     width: 140px;
     height: 20px;
     float: right;
+    position: absolute;
+    right: 25px;
 }
 
 .fb {
@@ -1027,7 +1032,7 @@ body {
     .right {
         top: 3870px;
     }
-    
+
     .left {
         top: 3870px;
     }
@@ -1112,6 +1117,7 @@ body {
         height: 180px;
         top: 3810px;
     }
+
     .left:hover {
         width: 190px;
         height: 190px;
@@ -1122,6 +1128,7 @@ body {
         height: 180px;
         top: 3810px;
     }
+
     .right:hover {
         width: 190px;
         height: 190px;
@@ -1438,6 +1445,7 @@ body {
         top: 3550px;
         right: -10px;
     }
+
     .right:hover {
         width: 160px;
         height: 160px;
@@ -1448,6 +1456,7 @@ body {
         height: 150px;
         top: 3550px;
     }
+
     .left:hover {
         width: 160px;
         height: 160px;
@@ -1608,6 +1617,7 @@ body {
         width: 130px;
         height: 130px;
     }
+
     .left:hover {
         width: 140px;
         height: 140px;
@@ -1617,6 +1627,7 @@ body {
         width: 130px;
         height: 130px;
     }
+
     .right:hover {
         width: 140px;
         height: 140px;
@@ -1880,7 +1891,7 @@ body {
     .cards-cont {
         height: auto;
     }
-    
+
     .page4 {
         margin-top: 280px;
     }
@@ -1938,7 +1949,7 @@ body {
     .analytics-cont {
         margin-top: 380px;
     }
-    
+
     .green-oval {
         margin-top: 2290px;
     }
@@ -2020,7 +2031,7 @@ body {
     .last-header-recources {
         margin-right: 25px;
     } */
-    
+
 }
 
 @media only screen and (max-width: 620px) {
@@ -2036,7 +2047,7 @@ body {
     .left {
         top: 3550px;
     }
-    
+
     .right {
         top: 3550px;
     }
@@ -2060,29 +2071,22 @@ body {
         margin-top: 10px;
     }
 
+    .last-cont {
+        height: 700px;
+    }
+
     .last-header {
-        display: grid;
+        flex-wrap: wrap;
+        margin-left: 0;
     }
 
     .last-header-features {
-        margin-right: 25px;
-        margin-top: 30px;
-    }
-
-    .last-header-benefits {
-        margin-right: 25px;
-        margin-top: 30px;
-    }
-
-    .last-header-downloads {
-        margin-right: 25px;
-        margin-top: 30px;
+        margin-left: 10px;
     }
 
     .last-header-recources {
-        margin-right: 25px;
-        margin-top: 120px;
-        float: left;
+        margin-top: 25px;
+        margin-right: 100px;
     }
 
 }
@@ -2170,6 +2174,20 @@ body {
         margin: 20px auto 0 auto;
     }
 
+    .last-header {
+        flex-wrap: wrap;
+        margin-left: 0;
+    }
+
+    .last-header-features {
+        margin-left: 10px;
+    }
+
+    .last-header-recources {
+        margin-top: 25px;
+        margin-right: 90px;
+    }
+
 }
 
 @media only screen and (max-width: 530px) {
@@ -2252,7 +2270,7 @@ body {
     .downloads-title {
         width: 400px;
     }
-    
+
     .downloads-text {
         width: 400px;
     }
@@ -2263,12 +2281,21 @@ body {
 
 }
 
+@media only screen and (max-width: 495px) {
+
+    .last-header-features {
+        margin-left: 5px;
+    }
+
+}
+
 @media only screen and (max-width: 490px) {
 
     .left {
         width: 110px;
         height: 110px;
     }
+
     .left:hover {
         width: 115px;
         height: 115px;
@@ -2278,14 +2305,11 @@ body {
         width: 110px;
         height: 110px;
     }
+
     .right:hover {
         width: 115px;
         height: 115px;
     }
-
-}
-
-@media only screen and (max-width: 490px) {
 
     .page4-title {
         font-size: 25px;
@@ -2294,6 +2318,22 @@ body {
     .page4-text {
         font-size: 13px;
         line-height: 15px;
+    }
+
+    .last-header-features {
+        margin-left: 0;
+    }
+
+}
+
+@media only screen and (max-width: 484px) {
+
+    .last-header {
+        margin-top: 20px;
+    }
+
+    .last-header-features {
+        margin-right: 0;
     }
 
 }
@@ -2352,7 +2392,7 @@ body {
     .busines-cont {
         width: 380px;
     }
-    
+
     .green-oval {
         margin-top: 2220px;
     }
@@ -2367,6 +2407,14 @@ body {
 
     .black-oval {
         margin-top: 3127px;
+    }
+
+}
+
+@media only screen and (max-width: 458px) {
+
+    .last-header-benefits {
+        margin-right: 0;
     }
 
 }
@@ -2424,6 +2472,7 @@ body {
         width: 100px;
         height: 100px;
     }
+
     .left:hover {
         width: 105px;
         height: 105px;
@@ -2434,6 +2483,7 @@ body {
         width: 100px;
         height: 100px;
     }
+
     .right:hover {
         width: 105px;
         height: 105px;
@@ -2455,6 +2505,14 @@ body {
 
     .download-buttons {
         margin-top: 25px;
+    }
+
+    .last-header {
+        margin: 50px auto;
+    }
+
+    .last-header-features {
+        margin-left: 0;
     }
 
 }
@@ -2833,6 +2891,7 @@ body {
         width: 80px;
         height: 80px;
     }
+
     .left:hover {
         height: 85px;
         width: 85px;
@@ -2843,6 +2902,7 @@ body {
         width: 80px;
         top: 3400px;
     }
+
     .right:hover {
         height: 85px;
         width: 85px;
