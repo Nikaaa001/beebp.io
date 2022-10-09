@@ -707,15 +707,18 @@ body {
 }
 
 .lastpage-logo {
-    margin-top: 100px;
+    margin-top: 120px;
+    left: 45%;
+    right: 45%;
     width: 147px;
     height: 40px;
+    position: absolute;
 }
 
 .last-header {
     width: 1261px;
     height: 226px;
-    margin: 80px auto 0 auto;
+    margin: 320px auto 0 auto;
     display: flex;
     justify-content: space-between;
 }
@@ -1506,6 +1509,11 @@ body {
         margin-top: 20px;
     }
 
+    .lastpage-logo {
+        left: 40%;
+        right: 40%;
+    }
+
 }
 
 @media only screen and (max-width: 935px) {
@@ -2032,6 +2040,11 @@ body {
         margin-right: 25px;
     } */
 
+    .lastpage-logo {
+        left: 35%;
+        right: 35%;
+    }
+
 }
 
 @media only screen and (max-width: 620px) {
@@ -2077,7 +2090,8 @@ body {
 
     .last-header {
         flex-wrap: wrap;
-        margin-left: 0;
+        margin-top: 210px;
+        margin-left: -25px;
     }
 
     .last-header-features {
@@ -2329,11 +2343,21 @@ body {
 @media only screen and (max-width: 484px) {
 
     .last-header {
-        margin-top: 20px;
+        margin-top: 200px;
     }
 
     .last-header-features {
-        margin-right: 0;
+        margin-right: auto;
+        margin-left: 5px;
+    }
+
+    .last-header-title {
+        font-size: 13px;
+    }
+
+    .last-header-text {
+        font-size: 12px;
+        line-height: 13px;
     }
 
 }
@@ -2507,12 +2531,31 @@ body {
         margin-top: 25px;
     }
 
-    .last-header {
+    /* .last-header {
         margin: 50px auto;
-    }
+    } */
 
     .last-header-features {
         margin-left: 0;
+    }
+
+}
+
+@media only screen and (max-width: 429px) {
+
+    .last-cont {
+        max-height: 2000px;
+        height: 1200px;
+        text-align: center;
+    }
+
+    .last-header {
+        display: grid;
+        margin-left: -30px;
+    }
+
+    .last-header-features {
+        margin: 0;
     }
 
 }
