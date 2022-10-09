@@ -695,7 +695,6 @@ body {
     z-index: -999;
     width: 100%;
     max-height: 100%;
-    border: 2px solid red;
 }
 
 .last-bg0 {
@@ -1045,7 +1044,6 @@ body {
 @media only screen and (max-width: 1310px) {
 
     .last-header {
-        border: 2px solid green;
         width: 92vw;
     }
 
@@ -2461,6 +2459,13 @@ body {
         margin: 0 5px;
     }
 
+    .lastpage-logo {
+        width: 110px;
+        height: 35px;
+        left: 15%;
+        right: 15%;
+    }
+
 }
 
 @media only screen and (max-width: 430px) {
@@ -2766,6 +2771,25 @@ body {
     .downloads-text {
         font-size: 12px;
         width: 300px;
+    }
+
+    .social-media-cont {
+        bottom: 70px;
+        left: 30%;
+        right: 30%;
+    }
+
+    .designed-created {
+        left: 21%;
+        right: 25%;
+    }
+
+    .last-header {
+        margin-top: 150px;
+    }
+
+    .lastpage-logo {
+        margin-top: 100px;
     }
 
 }
